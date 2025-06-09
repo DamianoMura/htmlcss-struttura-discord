@@ -38,6 +38,10 @@ main {
   border: 3px black dashed;
 }
 
+/*column percentiles */
+.col15 {
+  width: 15%;
+}
 
 .col20 {
   width: 20%;
@@ -55,6 +59,8 @@ main {
   width: 100%;
 }
 
+/*text formatting*/
+
 .text-center {
   text-align: center;
 }
@@ -63,6 +69,8 @@ main {
 .text-right {
   text-align: right;
 }
+
+/*box  heights*/
 
 .height300 {
   height: 300px;
@@ -76,22 +84,18 @@ main {
   height: 800px;
 }
 
+/*padding x-y */
+.p5 {
+  padding: 5px;
+}
+
+/* padding y axe*/
 .py20 {
   padding: 20px;
 }
 
 .py50 {
   padding: 50px;
-}
-
-/* utils/flex_attributes */
-
-.justify.center {
-  justify-items: center;
-}
-
-.justify-between {
-  justify-content: space-between;
 }
 
 /* utils/background_colors */
