@@ -5,9 +5,7 @@
 
 }
 
-main {
-  padding-bottom: 100px;
-}
+
 
 .container {
   margin: 0 auto;
@@ -30,6 +28,20 @@ main {
 
 .border3-white-dashed {
   border: 3px white dashed;
+}
+
+.border-top-white {
+  /*footer top border*/
+  border-top: 1px solid white;
+}
+
+/* utils/flex_attributes */
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 /*column percentiles */
@@ -66,6 +78,10 @@ main {
 
 /*box  heights*/
 
+.height100 {
+  height: 100px;
+}
+
 .height300 {
   height: 300px;
 }
@@ -87,6 +103,10 @@ main {
   padding-top: 10px;
 }
 
+.pt30 {
+  padding-top: 30px;
+}
+
 .pb30 {
   padding-bottom: 30px;
 }
@@ -97,6 +117,12 @@ main {
 
 .py50 {
   padding: 50px 0;
+}
+
+/*margins*/
+
+.my20 {
+  margin: 20px 0;
 }
 
 /* utils/background_colors */
