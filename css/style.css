@@ -5,6 +5,10 @@
 
 }
 
+main {
+  padding-bottom: 100px;
+}
+
 header {
 
   padding: 20px;
@@ -14,6 +18,13 @@ header {
   margin: 0 auto;
   display: flex;
   max-width: 1200px;
+
+}
+
+.container-sm {
+  margin: 50px auto;
+  display: flex;
+  max-width: 900px;
 
 }
 
@@ -29,12 +40,21 @@ header {
   border: 3px black dashed;
 }
 
+
 .col20 {
   width: 20%;
 }
 
+.col40 {
+  width: 40%;
+}
+
 .col60 {
   width: 60%;
+}
+
+.col100 {
+  width: 100%;
 }
 
 .text-center {
@@ -46,10 +66,18 @@ header {
   text-align: right;
 }
 
+.height300 {
+  height: 300px;
+}
+
+.height400 {
+  height: 400px;
+}
+
 /* utils/flex_attributes */
 
-.align.center {
-  align-items: center;
+.justify.center {
+  justify-items: center;
 }
 
 .justify-between {
@@ -68,6 +96,11 @@ header {
 
 .bg-blue {
   background-color: blue;
+  padding: 50px;
+}
+
+.bg-fuchsia {
+  background-color: fuchsia;
 }
 
 .bg-pink {
