@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+
+}
+
+/* utils*/
+.border3-black-dashed {
+  border: 3px black dashed;
+}
+
+/* utils/background_colors */
+
+.bg-turquoise {
+  background-color: turquoise;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-pink {
+  background-color: pink;
+}
+
+.bg-silver {
+  background-color: silver;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-light-green {
+  background-color: lightgreen;
+}
+
+.bg-hot-pink {
+  background-color: hotpink;
+}
+
+.bg-dark-grey {
+  background-color: rgb(27, 27, 27);
+}
