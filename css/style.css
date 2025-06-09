@@ -4,15 +4,55 @@
   box-sizing: border-box;
 }
 
+header {
+  height: 75px;
+  padding: 20px;
+}
+
 .container {
   margin: 0 auto;
   display: flex;
+  max-width: 1200px;
 
 }
+
+.border3-black-dashed.bg-gold {
+  padding: 5px;
+}
+
+
+
 
 /* utils*/
 .border3-black-dashed {
   border: 3px black dashed;
+}
+
+.col20 {
+  width: 20%;
+}
+
+.col60 {
+  width: 60%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.text-right {
+  text-align: right;
+}
+
+/* utils/flex_attributes */
+
+.align.center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 /* utils/background_colors */
@@ -21,8 +61,8 @@
   background-color: turquoise;
 }
 
-.bg-yellow {
-  background-color: yellow;
+.bg-gold {
+  background-color: gold;
 }
 
 .bg-blue {
