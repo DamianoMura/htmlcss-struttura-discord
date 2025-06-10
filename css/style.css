@@ -35,12 +35,16 @@ header ul li {
 }
 
 /* utils*/
-.border3-black-dashed {
-  border: 3px black dashed;
+.border3-black {
+  border: 3px black;
 }
 
-.border3-white-dashed {
-  border: 3px white dashed;
+.border3-white {
+  border: 3px white;
+}
+
+.dashed {
+  border-style: dashed;
 }
 
 .border-top-white {
