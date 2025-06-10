@@ -57,7 +57,7 @@ header ul li {
   display: flex;
 }
 
-.justify-between {
+.justify-content-between {
   justify-content: space-between;
 }
 
